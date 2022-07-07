@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #EC362D;
+    height: 69px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+header h1 {
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 43px;
+}
+
+.apresen {
+    width: 100%;
+    height: 227px;
+    background-image: url("../img/Rectangle\ 42.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.apresen p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 46px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+color: #FFFFFF;
+}
+
+.galeria {
+    padding-top: 20;
+    max-width: 759px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+    margin: 0 auto;
+}
+
+.container-quizz {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+    max-width: 759px;
+    margin: 82px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quizz .titulo {
+    width: 100%;
+    max-width: 688px;
+    height: 138px;
+    margin-top: 30px;
+    background: #434CA0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.titulo p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.container_respostas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.resposta {
+    margin: 20px 12px;
+    cursor: pointer;
+}
+
+.resposta img {
+    max-width: 333px;
+    height: 175px;
+}
+
+.resposta p {
+    margin-top: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    align-items: center;
+}
